@@ -43,3 +43,18 @@ function walkHome(dogName, dogBreed) {
   function exerciseDog(dogName, dogBreed) {
     return routine.map(fn => fn(dogName, dogBreed))
   }
+
+
+
+//   const routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
+// array.forEach(function (item, index) {
+//   console.log(item, index);
+// })
+
+// var routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog];
+// var arrayLength = routine.length;
+// const exercises = []
+// for (var i = 0; i < arrayLength; i++) {
+//     console.log(routine[i]);
+//     exercises.push(exercise)
+// }
